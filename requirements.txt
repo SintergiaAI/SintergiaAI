@@ -1,0 +1,17 @@
+langgraph
+langchain
+langchain_groq
+langchain_openai
+langchain-community
+faiss-cpu
+python-dotenv
+fastapi
+uvicorn
+pydantic
+asyncio
+aiohttp
+langchain_groq
+tweepy
+pinecone
+pandas
+together

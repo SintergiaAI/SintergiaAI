@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  consciousness:
+    build:
+      context: .
+      dockerfile: DockerFile 
+    ports:
+      - "8004:8004"
+    volumes:
+      - .:/consciousness 
+      - ./consciousness/assets:/consciousness/assets
+    environment:
+      - PORT=8004
+      - PYTHONPATH=/consciousness
+      - ASSETS_PATH=/consciousness/assets
